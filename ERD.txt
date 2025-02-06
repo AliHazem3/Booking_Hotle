@@ -1,0 +1,45 @@
+Entities and Attributes:
+1.Booking
+
+Id (Primary Key)
+
+CustomerName
+
+NationalId
+
+PhoneNumber
+
+HotelBranch
+
+CheckInDate
+
+CheckOutDate
+
+NumberOFRooms
+
+HasBookedBefore
+
+
+
+2.Room
+
+Id (Primary Key)
+
+RoomType
+
+Price
+
+Discount
+
+TotalPrice
+
+NumberOfAdults
+
+NumberOfChildren
+
+BookingId (Foreign Key referencing Booking.Id)
+
+
+
+3.Relationship:
+Booking (1) — (Many) Room
